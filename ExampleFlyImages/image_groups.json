@@ -1,0 +1,10 @@
+{
+    "image_name_filter_re": ".*_(?P<Channel>\\w)(\\.png|\\.tiff?)",
+    "image_set_size_per_batch": 1,
+    "group_by_field": "Channel",
+    "group_key_map": {
+        "D": "OrigBlue",
+        "R": "OrigRed",
+        "F": "OrigGreen",
+    }
+}
