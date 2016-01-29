@@ -134,7 +134,7 @@ def get_version():
 # ----------- Override defaults here ----------------
 
 scripts = [
-    # 'parcp2.py',
+    'parcp2.py',
 ]
 
 packages = [
